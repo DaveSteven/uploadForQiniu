@@ -1,0 +1,20 @@
+{
+  "name": "kumi-upload",
+  "version": "1.1.9",
+  "description": "upload for qiniu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/tudou423/uploadForQiniu.git"
+  },
+  "author": "davidhan",
+  "license": "ISC",
+  "dependencies": {
+    "path": "^0.12.7",
+    "qiniu": "^7.1.0",
+    "single-line-log": "^1.1.2"
+  }
+}
