@@ -15,7 +15,7 @@ import uploadForQiniu from 'kumi-upload'
 uploadForQiniu.upload(uploadPath, accessKey, secretKey, zone, bucket)
 ```
 
-## params
+## Params
 | param | Description |
 |-----|-----|
 | accessKey | 七牛云空间的accessKey |
