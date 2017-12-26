@@ -25,7 +25,7 @@ uploadForQiniu.upload(uploadPath, accessKey, secretKey, zone, bucket);
 ```
 
 ## Params
-| param | Description |
+| Param | Description |
 |-----|-----|
 | accessKey | 七牛云空间的accessKey |
 | secretKey | 七牛云空间的secretKey |
