@@ -10,6 +10,11 @@
 npm install kumi-upload -S
 ```
 
+``` bash
+import uploadForQiniu from 'kumi-upload'
+uploadForQiniu.upload(uploadPath, accessKey, secretKey, zone, bucket)
+```
+
 ## 填写参数
 | param | Description |
 |-----|-----|
