@@ -11,10 +11,18 @@ npm install kumi-upload -S
 ```
 
 ## 填写参数
-| Attr. Name | Description |
-| ----- | ----- | ----- |
-| accessKey | 七牛云空间的accessKey |
-| secreKey | 七牛云空间的secreKey |
-| uploadPath | 文件路径绝对路径 |
-| zone | 空间区域，华东: Zone_z0; 华北: Zone_z1; 华南: Zone_z2; 北美: Zone_na0 |
-| bucket | 空间名称 |
+| Attr. Name | Description | Required | Default Value |
+|-----|-----|-----|-----|
+| onRefresh | pull to refresh callback | N | - |
+| onInfinite | infinite loading callback | N | - |
+| onInfinite | infinite loading callback | N | - |
+| refreshText | tips of `pull-to-refresh` | N | 下拉刷新 |
+| noDataText | tips of `no-more-data` when `infinite-loading` finished | N | 没有更多数据 |
+| width | scroller container width | N | `100%` |
+| height | scroller container height | N | `100%` |
+| snapping | enable snapping mode | N | `false` |
+| snappingWidth | snapping width | N | 100 (stand for 100px) |
+| snappingHeight | snapping height | N | 100 |
+| refreshLayerColor | text color of `pull-to-refresh` layer | N | #AAA |
+| loadingLayerColor | text color of `infinite-loading` layer | N | #AAA |
+| minContentHeight | min content height (px) of `scroll-content` | N | 0 |
